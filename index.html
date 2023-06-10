@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66ce2c4f88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="weather-header">
+            <form class="weather-search">
+                <input type="text" placeholder="Search for City..." class="weather-searchfor">
+                <i class="fas fa-magnifying-glass" id="glass"></i>
+            </form>
+            <div class="weather-units">
+                <span class="weather-celsius">&#176C</span>
+                <span class="weather-farenheit">&#176F</span>
+            </div>
+        </div>
+
+        <div class="weather-body">
+            <h1 class="weather-city"></h1>
+            <div class="weather-date-time">
+            </div>
+            <div class="weather-forecast">
+            </div>
+            <div class="weather-icons">
+            </div>
+            <p class="weather-temp">18&#176</p>
+            <div class="weather-minmax">
+                <p>Min: 12&#176</p>
+                <p>Max: 16&#176</p>
+            </div>
+        </div>
+
+        <div class="weather-info">
+            <div class="weather-card">
+                <i class="fas fa-temperature-full icon"></i>
+                <div>
+                    <p class="w-type">Real Feel</p>
+                    <p class="weather-realfeel">18&#176</p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fas fa-droplet icon"></i>
+                <div>
+                    <p class="w-type">Humidity</p>
+                    <p class="weather-humidity">18&#176</p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fas fa-wind icon" ></i>
+                <div>
+                    <p class="w-type">Wind</p>
+                    <p class="weather-wind">18&#176</p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fas fa-gauge-high icon"></i>
+                <div>
+                    <p class="w-type">Pressure</p>
+                    <p class="weather-pressure">18 &#176</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
